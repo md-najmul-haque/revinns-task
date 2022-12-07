@@ -1,12 +1,10 @@
-import './App.css';
 import Form from './components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Please insert data</h2>
+    <div className="container mx-auto">
+      <h2 className='text-center text-3xl my-10 font-semibold'>Please order !!!</h2>
       <Form />
-
     </div>
   );
 }
